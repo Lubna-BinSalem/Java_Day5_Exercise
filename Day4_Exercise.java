@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Day4_Exercise {
     public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
-/*
+
         System.out.println("Ïnput the first number:");
         int num1= input.nextInt();
 
@@ -30,7 +30,7 @@ public class Day4_Exercise {
             System.out.println(num1%num2);
         }else {
             System.out.println("Wrong operation");
-        }*/
+        }
 
         System.out.println("please enter either  0 for scissors, 1 for rock and 2 for paper");
         int action= input.nextInt();
@@ -63,7 +63,7 @@ public class Day4_Exercise {
             System.out.println("It's a draw");
         }
 
-        /*
+        
         // Test constructor and toString()
         Account a1 = new Account("A101", "Tan Ah Teck", 88);
         System.out.println(a1);  // toString();
@@ -87,7 +87,7 @@ public class Day4_Exercise {
         a1.transferTo(a2, 100);  // toString()
         System.out.println(a1);
         System.out.println(a2);
-*/
+
 
 
 
